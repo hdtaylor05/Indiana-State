@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="validate.js" defer></script>
+</head>
+<body>
+
+<header class="top-header">
+    <h1>Indiana: The Crossroads of America</h1>
+    <img src="images/indiana-logo.png" alt="Indiana Logo" class="logo" />
+</header>
+
+<nav class="main-nav">
+    <div class="nav-container">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="capital.html">Indianapolis</a></li>
+            <li><a href="form.html">Contact</a></li>
+        </ul>
+        <input type="text" placeholder="Search" class="search-box" />
+    </div>
+</nav>
+
+<main class="form-page">
+    <section class="form-section">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Please fill out the form below with your question or comment.</p>
+
+        <form id="contactForm">
+            <label for="firstName">First Name:</label><br />
+            <input type="text" id="firstName" name="firstName" required><br />
+
+            <label for="lastName">Last Name:</label><br />
+            <input type="text" id="lastName" name="lastName" required><br />
+
+            <label for="email">Email Address:</label><br />
+            <input type="email" id="email" name="email" required><br />
+
+            <label for="confirmEmail">Confirm Email Address:</label><br />
+            <input type="email" id="confirmEmail" name="confirmEmail" required><br />
+
+            <label for="message">Your Question:</label><br />
+            <textarea id="message" name="message" rows="5" required></textarea><br />
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 The Official Website of Indiana</p>
+</footer>
+
+</body>
+</html>
